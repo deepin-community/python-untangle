@@ -1,4 +1,12 @@
 #!/usr/bin/make -f
 
+export PYBUILD_NAME=untangle
+
 %:
-	dh $@
+	dh $@ --buildsystem=pybuild
+
+execute_before_dh_auto_build:
+	chmod a-x untangle.py
+
+override_dh_auto_test:
+	dh_auto_test -O--buildsystem=pybuild -- --test-custom --test-args "{interpreter} tests/test_untangle.py"
