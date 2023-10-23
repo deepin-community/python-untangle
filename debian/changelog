@@ -1,5 +1,17 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-untangle (1.2.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Julian Gilbey <jdg@debian.org>  Thu, 14 Jul 2022 06:57:01 +0100
+
+python-untangle (1.1.1+git20200807.fb916a9-2) unstable; urgency=medium
+
+  * Source-only upload.
+
+ -- Julian Gilbey <jdg@debian.org>  Sun, 26 Jun 2022 10:35:17 +0100
+
+python-untangle (1.1.1+git20200807.fb916a9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1005701)
+
+ -- Julian Gilbey <jdg@debian.org>  Sun, 12 Jun 2022 16:13:35 +0100
